@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articlet</title>
+    <style>
+        body {
+            background-color: rgb(141, 199, 238);
+        }
+        ul{
+            background-color: black;
+        }
+        ul li {
+            padding: 10px;
+            margin: 0px;
+            list-style: none;
+            display: inline-block;
+        }
+        ul li a{
+            color: aliceblue;
+            text-decoration: none;
+            border-bottom: 2px solid black;
+            top: -1px;
+        }
+        ul li a:hover{
+            border-bottom: 2px solid red;
+            top: -1px;
+        }
+
+        .mid {
+            width: 500px;
+            margin: 20px auto 2px auto;
+        }
+
+        .mid img {
+            float: left;
+            margin: 0 10px 5px 0px;
+        }
+        p{
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align:justify;
+        }
+        section::before{
+            background-image: url(./img.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+        .contact{
+            display: flex;
+            justify-content: center;
+        }
+        footer ul{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p style="font-weight: 900;"> Transparent background-image exercise</p>
+        <p style="text-align:center ;">Article using semantic tags. header, footer, nav, article, aside, and section</p><hr>
+        <header>
+            <h1 style="text-align:center ;">Save Water Save Life</h1>
+        </header>
+        <nav class="mid1">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Category</a></li>
+                <li><a href="">Media</a></li>
+                <li><a href="">Subscribers</a></li>
+                <li><a href="">Notifications</a></li>
+            </ul>
+        </nav>
+
+        <aside>
+            <img src="savewater (1).jpeg" alt="savewater" width="100px" style="float:right; margin:0 50px 0 50px;">
+        </aside>
+
+        <article>
+            <p style="color: black; "> Water is perhaps the second most important substance on Earth after the air. Apart from drinking, there
+                are other benefits of water as well. Thus, it includes cooking, washing, cleaning, etc. Water is not a
+                vital part of the human being’s survival. Also, it important for the survival of trees and plants.
+                Additionally, it is a precious element required for the agricultural as well as various other industrial
+                sectors. </p>
+        </article>
+
+        <img src="savewater (2).jpeg" alt="savewater" width="100px" style="float:left; margin:20px 30px 20px 30px ;" >
+
+        <article>
+            <h3>Need to Save Water</h3>
+            <p style="color: black;">
+                Currently, there are many regions in the world that are facing extreme water scarcity due to deÃ§line of
+                groundwater and scanty rainfalls. Also, in some areas, the groundwater is contaminated or it has been
+                overused. Thus, these factors have to lead to drought situations and in these areas it has lead to water
+                scarcity. Furthermore, urbanization and industrialization have added to the problems where groundwater
+                has been overused to fulfill the increasing demands of the population.</p>
+        </article>
+
+        <h3 style="clear:both;">Save Water Initiative</h3>
+
+        <aside style="float: right; border:2px solid black; margin:0 10px 0 20px;">
+            <ol style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
+                    <li>If you save water, water will save you.</li>
+                    <li>When the wells dry, we know the worth of water.</li>
+                    <li>A drop of water is worth more than a sack of gold to a thirst man</li>
+             </ol>
+        </aside>
+
+            <p style="color:black;">
+                This initiative can help and promote the conservation of water. Also, it can be spread awareness among
+                the people about the importance of water. Additionally, the save water campaign helps people realize
+                that the sources of fresh and pure water are very limited. So, if it is overused that there are chances
+                that they might not be able to fulfill the increasing demands of the population. </p>
+        
+        <aside class="mid">
+            <img src="./images (2).jpg" alt="water" width="80px">
+            <p style="text-align:justify;">2 billion people still lack access to safe and substainable supply of fresh
+                drinking water.</p>
+            <p> More than 50 kinds of diseases are caused by poor drinking water quality. water pollution causes
+                diarrhea, skin diseases, malnutrition, and even cancer and other diseases related to water pollution.
+            </p>
+            <p>By 2025, two-thirds of the world's population may be facing water shortages. When waters run dry, people
+                can't get enough to drink, wash, or feed crops, and economic decline may occur.</p>
+        </aside>
+        <hr width="100%" color="black" style="clear:both;">
+
+        <div class="contact">
+            <footer style="float:left;">
+                <p>Contact us</p>
+                <input type="text" name="username" id="name" placeholder="Your Name" style="margin:0 20px 0 20px;"><br><br>
+                <input type="text" name="useremail" id="email" placeholder="Your Email"
+                style="margin:0 20px 30px 20px;"><br>
+                <button style="margin: 0 0 2px 50px">Send Message</button>
+            </footer>
+        
+            <textarea name="text" id="" cols="30" rows="5" placeholder="Your Message" style="margin-top:50px;"></textarea>
+        </div>
+        <footer style="clear: both;">
+            <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">Customer Stories</a></li>
+                <li><a href="">Educators</a></li>
+                <li><a href="">Share</a></li>
+                <li><a href="">FAQs</a></li>
+            </ul>
+        </footer>
+    </section>
+
+</body>
+
+</html>
